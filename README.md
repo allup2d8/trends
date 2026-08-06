@@ -2,13 +2,15 @@
 
 > Evidence-led technology intelligence for engineering leaders. A new report every Monday at **[up2d8.com](https://up2d8.com)**.
 
-This list is the machine-readable tail of Issue **2026-W32**. Every trend below was classified by multi-day, multi-source consistency — never by a single spike — and every claim on the site carries a source link and the measurement window it came from.
+This list is the machine-readable tail of Issue **2026-W32**. Every trend below was classified by
+multi-day, multi-source consistency — never by a single spike — and every claim on the site
+carries a source link and the measurement window it came from.
 
 📄 **Read the full issue:** [The AI-tooling era is settling: infrastructure compounds while hype spikes decay](https://up2d8.com/report/2026-W32-the-ai-tooling-era-is-settling-infrastructure-compounds-while-hype-spikes-decay)
 
 | Ladder | Meaning |
 |---|---|
-| Durable shift | Category has stopped being a trend and become plumbing |
+| Durable shift | The category has stopped being a trend and become plumbing |
 | Strong trend | Sustained multi-source momentum |
 | Emerging trend | Building, not yet corroborated across sources |
 | Early signal | Worth watching; evidence still thin |
@@ -27,19 +29,6 @@ LangGraph (+82 stars/day sustained), Dify (+114 stars, issue count falling for 2
 - [LangChain](https://github.com/langchain-ai/langchain)
 - [LangGraph](https://github.com/langchain-ai/langgraph)
 - [Mastra](https://github.com/mastra-ai/mastra)
-
-## Vector/RAG database consolidation
-
-**Durable shift** · Recommended action: **Adopt selectively** · [Full analysis →](https://up2d8.com/trends/trend%3Avector-rag-database-consolidation)
-
-Qdrant (+64 stars/3 days), Chroma (+75 stars/10 days), Milvus, and pgvector (+82 stars/week) all show multi-week steady, non-viral growth during the live monitoring period, consistent with RAG infrastructure settling into standard-stack status rather than hype-driven adoption.
-
-- [Chroma](https://github.com/chroma-core/chroma)
-- [Graphiti](https://github.com/getzep/graphiti)
-- [LlamaIndex](https://github.com/run-llama/llama_index)
-- [Milvus](https://github.com/milvus-io/milvus)
-- [Qdrant](https://github.com/qdrant/qdrant)
-- [pgvector](https://github.com/pgvector/pgvector)
 
 ## Local/open-weight LLM inference runtimes
 
@@ -65,6 +54,17 @@ ClickHouse (+87 stars, 10-year anniversary HN post at 329 points), DuckDB (+72 s
 - [SurrealDB](https://github.com/surrealdb/surrealdb)
 - [TiDB](https://github.com/pingcap/tidb)
 
+## Rust ecosystem steady maturity
+
+**Durable shift** · Recommended action: **Adopt selectively** · [Full analysis →](https://up2d8.com/trends/trend%3Arust-ecosystem-steady-maturity)
+
+Rust language itself shows a stable six-week release cadence (v1.97.1 on 16 July 2026) and steady +112 star growth with no viral spikes during the live monitoring period, while Rust-adjacent tools (uv, Tauri +63 stars/day, Bun) show consistent multi-week organic growth.
+
+- [Bun](https://github.com/oven-sh/bun)
+- [Rust (Rust Programming Language)](https://blog.rust-lang.org/2026/05/28/Rust-1.96.0)
+- [Tauri](https://github.com/tauri-apps/tauri)
+- [uv](https://github.com/astral-sh/uv)
+
 ## Supply-chain security tooling under sustained scrutiny
 
 **Durable shift** · Recommended action: **Adopt selectively** · [Full analysis →](https://up2d8.com/trends/trend%3Asupply-chain-security-tooling-under-sustained-scrutiny)
@@ -76,16 +76,32 @@ Trivy (+81 stars/5 days, still tied to March 2026 GitHub Actions/Homebrew supply
 - [Trivy](https://github.com/aquasecurity/trivy)
 - [TruffleHog](https://github.com/trufflesecurity/trufflehog)
 
-## Rust ecosystem steady maturity
+## Vector/RAG database consolidation
 
-**Durable shift** · Recommended action: **Adopt selectively** · [Full analysis →](https://up2d8.com/trends/trend%3Arust-ecosystem-steady-maturity)
+**Durable shift** · Recommended action: **Adopt selectively** · [Full analysis →](https://up2d8.com/trends/trend%3Avector-rag-database-consolidation)
 
-Rust language itself shows a stable six-week release cadence (v1.97.1 on 16 July 2026) and steady +112 star growth with no viral spikes during the live monitoring period, while Rust-adjacent tools (uv, Tauri +63 stars/day, Bun) show consistent multi-week organic growth.
+Qdrant (+64 stars/3 days), Chroma (+75 stars/10 days), Milvus, and pgvector (+82 stars/week) all show multi-week steady, non-viral growth during the live monitoring period, consistent with RAG infrastructure settling into standard-stack status rather than hype-driven adoption.
 
-- [Bun](https://github.com/oven-sh/bun)
-- [Rust (Rust Programming Language)](https://blog.rust-lang.org/2026/05/28/Rust-1.96.0)
-- [Tauri](https://github.com/tauri-apps/tauri)
-- [uv](https://github.com/astral-sh/uv)
+- [Chroma](https://github.com/chroma-core/chroma)
+- [Graphiti](https://github.com/getzep/graphiti)
+- [LlamaIndex](https://github.com/run-llama/llama_index)
+- [Milvus](https://github.com/milvus-io/milvus)
+- [Qdrant](https://github.com/qdrant/qdrant)
+- [pgvector](https://github.com/pgvector/pgvector)
+
+## AI coding-agent CLI wars (Claude Code, Codex, Gemini CLI, opencode)
+
+**Strong trend** · Recommended action: **Experiment** · [Full analysis →](https://up2d8.com/trends/trend%3Aai-coding-agent-cli-wars-claude-code-codex-gemini-cli-opencode)
+
+Claude Code shows sustained multi-source momentum (139k stars, major HN events including the March 2026 leak and July 2026 Bun-runtime switch, 2095 and 608 HN points respectively) during the live monitoring window, while competing CLIs (Gemini CLI, OpenCode, cc-switch, rtk) show first-seen high star counts in the same period.
+
+- [Claude Code](https://claude.com/claude-code)
+- [Gemini CLI](https://github.com/google-gemini/gemini-cli)
+- [OpenCode](https://github.com/anomalyco/opencode)
+- [Ponytail](https://github.com/dietrichgebert/ponytail)
+- [Spec Kit](https://github.com/github/spec-kit)
+- [cc-switch](https://github.com/farion1231/cc-switch)
+- [rtk-ai/rtk](https://github.com/rtk-ai/rtk)
 
 ## Claude agent-skills ecosystem breakout
 
@@ -103,20 +119,6 @@ Multiple independent 'skills' repos for Claude Code (Anthropic's own, Addy Osman
 - [mattpocock/skills](https://github.com/mattpocock/skills)
 - [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
 - [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice)
-
-## AI coding-agent CLI wars (Claude Code, Codex, Gemini CLI, opencode)
-
-**Strong trend** · Recommended action: **Experiment** · [Full analysis →](https://up2d8.com/trends/trend%3Aai-coding-agent-cli-wars-claude-code-codex-gemini-cli-opencode)
-
-Claude Code shows sustained multi-source momentum (139k stars, major HN events including the March 2026 leak and July 2026 Bun-runtime switch, 2095 and 608 HN points respectively) during the live monitoring window, while competing CLIs (Gemini CLI, OpenCode, cc-switch, rtk) show first-seen high star counts in the same period.
-
-- [Claude Code](https://claude.com/claude-code)
-- [Gemini CLI](https://github.com/google-gemini/gemini-cli)
-- [OpenCode](https://github.com/anomalyco/opencode)
-- [Ponytail](https://github.com/dietrichgebert/ponytail)
-- [Spec Kit](https://github.com/github/spec-kit)
-- [cc-switch](https://github.com/farion1231/cc-switch)
-- [rtk-ai/rtk](https://github.com/rtk-ai/rtk)
 
 ## MCP tooling long-tail proliferation
 
@@ -175,4 +177,3 @@ AutoResearchClaw shows flat growth (+73 stars/9 days, ~8/day) after an initial v
 Machine-readable: [llms.txt](https://up2d8.com/llms.txt) · [RSS](https://up2d8.com/rss.xml)
 
 _Updated weekly from Issue 2026-W32. Inclusion is an observation, not an endorsement._
-
