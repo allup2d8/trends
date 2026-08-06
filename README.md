@@ -10,11 +10,11 @@ carries a source link and the measurement window it came from.
 
 | Ladder | Meaning |
 |---|---|
-| Durable shift | The category has stopped being a trend and become plumbing |
-| Strong trend | Sustained multi-source momentum |
-| Emerging trend | Building, not yet corroborated across sources |
-| Early signal | Worth watching; evidence still thin |
-| Noise | Star count without momentum |
+| Durable shift | Sustained, structural change in the landscape backed by broad, lasting evidence. |
+| Strong trend | Consistent, multi-source momentum with credible adoption evidence. |
+| Emerging trend | Repeated signal across multiple days or source types; growing but unproven. |
+| Early signal | A first credible indication worth watching; single source type or short window. |
+| Noise | Isolated or vendor-driven signal with no corroboration; likely to fade. |
 
 ---
 
@@ -167,12 +167,9 @@ AutoResearchClaw shows flat growth (+73 stars/9 days, ~8/day) after an initial v
 ## How this is produced
 
 - A daily pipeline observes GitHub, Hacker News and the technical press.
-- An analyst scores every signal 1-5 on seven frozen dimensions (GitHub momentum, developer
-  adoption, enterprise relevance, technical maturity, ecosystem support, differentiation,
-  6-12 month adoption probability).
+- An analyst scores every signal 1-5 on each of 7 frozen dimensions: GitHub Momentum, Developer Adoption, Enterprise Relevance, Technical Maturity, Ecosystem Support, Differentiation, 6–12 Month Adoption Probability.
 - A columnist writes only what that evidence supports.
-- Classifications before 14 July 2026 are retrospective model estimates from reconstructed
-  repository data. Live classifications begin 14 July 2026.
+- Classifications before 14 July 2026 are retrospective model estimates calculated from reconstructed repository data — they were not published or assessed at the time. Live classifications begin on 14 July 2026.
 
 Machine-readable: [llms.txt](https://up2d8.com/llms.txt) · [RSS](https://up2d8.com/rss.xml)
 
