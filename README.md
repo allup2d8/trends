@@ -1,12 +1,12 @@
 # Up2d8 — Technology Trends to Watch
 
-> Evidence-led technology intelligence for engineering leaders. A new report every Monday at **[up2d8.com](https://up2d8.com)**.
+> Evidence-led technology intelligence for engineering leaders. A new report every Monday at **[up2d8.com](http://localhost:3000)**.
 
-This list is the machine-readable tail of Issue **2026-W32**. Every trend below was classified by
+This list is the machine-readable tail of Issue **2026-W33**. Every trend below was classified by
 multi-day, multi-source consistency — never by a single spike — and every claim on the site
 carries a source link and the measurement window it came from.
 
-📄 **Read the full issue:** [The AI-tooling era is settling: infrastructure compounds while hype spikes decay](https://up2d8.com/report/2026-W32-the-ai-tooling-era-is-settling-infrastructure-compounds-while-hype-spikes-decay)
+📄 **Read the full issue:** [Circumvention tooling's quiet persistence outlasts the agent gold rush](http://localhost:3000/report/2026-W33-circumvention-tooling-s-quiet-persistence-outlasts-the-agent-gold-rush)
 
 | Ladder | Meaning |
 |---|---|
@@ -18,149 +18,126 @@ carries a source link and the measurement window it came from.
 
 ---
 
-## Agentic orchestration frameworks maturing
+## Proxy, VPN and censorship-circumvention tooling shows sustained large-scale interest
 
-**Durable shift** · Recommended action: **Experiment** · [Full analysis →](https://up2d8.com/trends/trend%3Aagentic-orchestration-frameworks-maturing)
+**Durable shift** · Recommended action: **Watch** · [Full analysis →](http://localhost:3000/trends/trend%3Aproxy-vpn-and-censorship-circumvention-tooling-shows-sustained-large-scale-interest)
 
-LangGraph (+82 stars/day sustained), Dify (+114 stars, issue count falling for 2 straight days), CrewAI (~53 stars/day steady linear pace) and Mastra all show multi-week, multi-day consistent organic growth through the live monitoring window without acceleration or hype spikes, suggesting the category has moved from experimentation to steady adoption.
+A broad set of proxy/VPN-adjacent repos (v2rayNG, bannedbook/fanqiang, 3x-ui, Xray-core, v2ray-core, FlClash, dockur/windows) each registered 40k+ stars on first observation this week, indicating durable, longstanding demand for censorship-circumvention and network-tunnelling infrastructure rather than a new spike.
 
-- [CrewAI](https://github.com/crewAIInc/crewAI)
-- [Dify](https://github.com/langgenius/dify)
-- [LangChain](https://github.com/langchain-ai/langchain)
-- [LangGraph](https://github.com/langchain-ai/langgraph)
-- [Mastra](https://github.com/mastra-ai/mastra)
+- [3x-ui](https://github.com/mhsanaei/3x-ui)
+- [FlClash](https://github.com/chen08209/flclash)
+- [Xray-core](https://github.com/xtls/xray-core)
+- [bannedbook/fanqiang — curated guide/aggregator for censorship-circumvention proxy tools (Shadowsocks, SSR, V2Ray, Trojan, Brook, Psiphon, and more)](https://github.com/bannedbook/fanqiang)
+- [dockur/windows](https://github.com/dockur/windows)
+- [v2ray/v2ray-core](https://github.com/v2ray/v2ray-core)
+- [v2rayNG](https://github.com/2dust/v2rayng)
 
-## Local/open-weight LLM inference runtimes
+## Agentic coding assistants and AI dev-agent frameworks consolidate around a few breakout projects
 
-**Durable shift** · Recommended action: **Strategic priority** · [Full analysis →](https://up2d8.com/trends/trend%3Alocal-open-weight-llm-inference-runtimes)
+**Strong trend** · Recommended action: **Experiment** · [Full analysis →](http://localhost:3000/trends/trend%3Aagentic-coding-assistants-and-ai-dev-agent-frameworks-consolidate-around-a-few-breakout-projects)
 
-Ollama (+102 stars/day), vLLM (+110 stars/day with rising open issues), and llama.cpp maintain sustained multi-week growth through the live monitoring window (14 July–2 Aug 2026), with Ollama and vLLM both flagged for strategic priority given enterprise-grade adoption signals.
+Cline, Agno, BMAD-METHOD, HKUDS Nanobot, Vercel Agent Browser and several China-origin agent frameworks (BettaFish, CowAgent, ruflo, orca) all surfaced as first-time observations this single week (2026-08-03 to 2026-08-09), each with tens of thousands of stars already, and GPT-5.2-Codex's underlying openai/codex repo shows 104,843 stars — evidence is single-day/first-seen for every entity so no multi-day momentum can yet be confirmed, but the sheer density of new high-star agentic tooling across GitHub and Hacker News in one week signals a maturing category.
 
-- [Ollama](https://github.com/ollama/ollama)
-- [Open WebUI](https://github.com/open-webui/open-webui)
-- [Unsloth](https://github.com/unslothai/unsloth)
-- [llama.cpp](https://github.com/ggml-org/llama.cpp)
-- [vLLM](https://github.com/vllm-project/vllm)
+- [Agno](https://github.com/agno-agi/agno)
+- [BMAD-METHOD](https://github.com/bmad-code-org/bmad-method)
+- [BettaFish](https://github.com/666ghj/bettafish)
+- [Cline](https://github.com/cline/cline)
+- [FlowiseAI/Flowise](https://github.com/flowiseai/flowise)
+- [GPT-5.2-Codex](https://openai.com/index/gpt-5-2-codex-system-card)
+- [HKUDS Nanobot](https://github.com/hkuds/nanobot)
+- [LibreChat](https://github.com/danny-avila/librechat)
+- [Open Interpreter](https://github.com/openinterpreter/openinterpreter)
+- [Vercel Agent Browser](https://github.com/vercel-labs/agent-browser)
+- [orca (stablyai)](https://github.com/stablyai/orca)
+- [ruflo](https://github.com/ruvnet/ruflo)
+- [zhayujie/CowAgent](https://github.com/zhayujie/cowagent)
 
-## OLAP/analytics databases durable growth
+## AI-native document and knowledge processing for RAG pipelines
 
-**Durable shift** · Recommended action: **Strategic priority** · [Full analysis →](https://up2d8.com/trends/trend%3Aolap-analytics-databases-durable-growth)
+**Strong trend** · Recommended action: **Experiment** · [Full analysis →](http://localhost:3000/trends/trend%3Aai-native-document-and-knowledge-processing-for-rag-pipelines)
 
-ClickHouse (+87 stars, 10-year anniversary HN post at 329 points), DuckDB (+72 stars/3 days, rising open issues signalling usage growth) and Apache Doris show consistent multi-week incremental growth without hype spikes, confirming durable enterprise analytics adoption through the live window.
+Docling (IBM) and FAISS (Meta) both show substantial GitHub scale on first observation this week (64,137 and 40,696 stars respectively), reflecting continued infrastructure investment in retrieval pipelines, while ClawRAG remains flagged as noise for the sixth consecutive day due to a persistent data-source mismatch against ultralytics/yolov5.
 
-- [Apache Doris](https://github.com/apache/doris)
-- [ClickHouse](https://github.com/clickhouse/clickhouse)
-- [DuckDB](https://github.com/duckdb/duckdb)
-- [SurrealDB](https://github.com/surrealdb/surrealdb)
-- [TiDB](https://github.com/pingcap/tidb)
+- [Docling](https://github.com/docling-project/docling)
+- [FAISS](https://github.com/facebookresearch/faiss)
 
-## Rust ecosystem steady maturity
+## Self-hosted / local-first AI infrastructure gains enterprise traction
 
-**Durable shift** · Recommended action: **Adopt selectively** · [Full analysis →](https://up2d8.com/trends/trend%3Arust-ecosystem-steady-maturity)
+**Strong trend** · Recommended action: **Adopt selectively** · [Full analysis →](http://localhost:3000/trends/trend%3Aself-hosted-local-first-ai-infrastructure-gains-enterprise-traction)
 
-Rust language itself shows a stable six-week release cadence (v1.97.1 on 16 July 2026) and steady +112 star growth with no viral spikes during the live monitoring period, while Rust-adjacent tools (uv, Tauri +63 stars/day, Bun) show consistent multi-week organic growth.
+A cluster of self-hosted AI inference and gateway tools (LocalAI, LiteLLM, DeepSpeed, Ray, MiniMind, OmniRoute, QuantumNous new-api, PrivateGPT) each posted large star bases on first observation this week; LiteLLM's evidence additionally includes a documented supply-chain compromise (938 and 739-point Hacker News threads) underscoring real production usage at scale, though all metrics are single-snapshot with no delta history yet.
 
-- [Bun](https://github.com/oven-sh/bun)
-- [Rust (Rust Programming Language)](https://blog.rust-lang.org/2026/05/28/Rust-1.96.0)
-- [Tauri](https://github.com/tauri-apps/tauri)
-- [uv](https://github.com/astral-sh/uv)
+- [DeepSpeed](https://github.com/deepspeedai/deepspeed)
+- [LiteLLM (BerriAI/litellm)](https://github.com/berriai/litellm)
+- [LocalAI](https://github.com/mudler/localai)
+- [MiniMind](https://github.com/jingyaogong/minimind)
+- [OmniRoute (diegosouzapw)](https://github.com/diegosouzapw/omniroute)
+- [PrivateGPT](https://github.com/zylon-ai/private-gpt)
+- [QuantumNous/new-api](https://github.com/quantumnous/new-api)
+- [Ray](https://github.com/ray-project/ray)
 
-## Supply-chain security tooling under sustained scrutiny
+## AI-assisted developer education and prompt-engineering references surge in popularity
 
-**Durable shift** · Recommended action: **Adopt selectively** · [Full analysis →](https://up2d8.com/trends/trend%3Asupply-chain-security-tooling-under-sustained-scrutiny)
+**Emerging trend** · Recommended action: **Watch** · [Full analysis →](http://localhost:3000/trends/trend%3Aai-assisted-developer-education-and-prompt-engineering-references-surge-in-popularity)
 
-Trivy (+81 stars/5 days, still tied to March 2026 GitHub Actions/Homebrew supply-chain compromise coverage), Gitleaks (+82 stars/5 days), TruffleHog (+93 stars/week) and CodeQL show multi-week steady growth corroborated by recurring live-period incident coverage, indicating devsecops tooling adoption is durable rather than reactive-only.
+Multiple curated AI/LLM education repos (system prompt leak collections, Microsoft's AI Agents for Beginners, AI Engineering from Scratch, professional-programming) posted tens of thousands of stars on first observation this week, suggesting strong developer appetite for structured AI learning material, though each is a single first-seen snapshot with no velocity history.
 
-- [CodeQL](https://github.com/github/codeql)
-- [Gitleaks](https://github.com/gitleaks/gitleaks)
-- [Trivy](https://github.com/aquasecurity/trivy)
-- [TruffleHog](https://github.com/trufflesecurity/trufflehog)
+- [AI Engineering from Scratch](https://github.com/rohitg00/ai-engineering-from-scratch)
+- [AI for Beginners](https://github.com/microsoft/ai-for-beginners)
+- [Microsoft AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners)
+- [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks)
+- [charlax/professional-programming](https://github.com/charlax/professional-programming)
 
-## Vector/RAG database consolidation
+## MCP (Model Context Protocol) tooling proliferates across the stack
 
-**Durable shift** · Recommended action: **Adopt selectively** · [Full analysis →](https://up2d8.com/trends/trend%3Avector-rag-database-consolidation)
+**Emerging trend** · Recommended action: **Experiment** · [Full analysis →](http://localhost:3000/trends/trend%3Amcp-model-context-protocol-tooling-proliferates-across-the-stack)
 
-Qdrant (+64 stars/3 days), Chroma (+75 stars/10 days), Milvus, and pgvector (+82 stars/week) all show multi-week steady, non-viral growth during the live monitoring period, consistent with RAG infrastructure settling into standard-stack status rather than hype-driven adoption.
+Multiple independent MCP-tagged repos (Chrome DevTools MCP, Goose, HyperFrames, MemPalace, Upstash Context7) were all first observed this week with substantial star counts and, in Chrome DevTools MCP's case, a documented velocity breakout on GitHub's 'mcp' topic plus a 604-point/234-comment Hacker News thread — evidence remains first-seen/single-day per entity, but the breadth of MCP server tooling appearing simultaneously indicates the protocol is becoming a default integration layer for AI tools.
 
-- [Chroma](https://github.com/chroma-core/chroma)
-- [Graphiti](https://github.com/getzep/graphiti)
-- [LlamaIndex](https://github.com/run-llama/llama_index)
-- [Milvus](https://github.com/milvus-io/milvus)
-- [Qdrant](https://github.com/qdrant/qdrant)
-- [pgvector](https://github.com/pgvector/pgvector)
+- [Chrome DevTools MCP](https://developer.chrome.com/blog/chrome-devtools-mcp-debug-your-browser-session)
+- [Goose (aaif-goose)](https://github.com/aaif-goose/goose)
+- [HyperFrames](https://github.com/heygen-com/hyperframes)
+- [MemPalace](https://github.com/mempalace/mempalace)
+- [Upstash Context7](https://github.com/upstash/context7)
 
-## AI coding-agent CLI wars (Claude Code, Codex, Gemini CLI, opencode)
+## AI security and offensive-tooling repos emerge as a distinct category
 
-**Strong trend** · Recommended action: **Experiment** · [Full analysis →](https://up2d8.com/trends/trend%3Aai-coding-agent-cli-wars-claude-code-codex-gemini-cli-opencode)
+**Early signal** · Recommended action: **Watch** · [Full analysis →](http://localhost:3000/trends/trend%3Aai-security-and-offensive-tooling-repos-emerge-as-a-distinct-category)
 
-Claude Code shows sustained multi-source momentum (139k stars, major HN events including the March 2026 leak and July 2026 Bun-runtime switch, 2095 and 608 HN points respectively) during the live monitoring window, while competing CLIs (Gemini CLI, OpenCode, cc-switch, rtk) show first-seen high star counts in the same period.
+KeygraphHQ/Shannon and Strix both surfaced this week as first-observation AI-focused penetration-testing/security tools with 46k–49k stars, indicating nascent but notable crossover between LLM tooling and offensive security research; evidence is limited to single-day GitHub snapshots for both.
 
-- [Claude Code](https://claude.com/claude-code)
-- [Gemini CLI](https://github.com/google-gemini/gemini-cli)
-- [OpenCode](https://github.com/anomalyco/opencode)
-- [Ponytail](https://github.com/dietrichgebert/ponytail)
-- [Spec Kit](https://github.com/github/spec-kit)
-- [cc-switch](https://github.com/farion1231/cc-switch)
-- [rtk-ai/rtk](https://github.com/rtk-ai/rtk)
+- [KeygraphHQ Shannon](https://github.com/keygraphhq/shannon)
+- [Strix](https://github.com/usestrix/strix)
 
-## Claude agent-skills ecosystem breakout
+## Flowise agentic no-code platform shuts down amid crowded low-code AI market
 
-**Strong trend** · Recommended action: **Experiment** · [Full analysis →](https://up2d8.com/trends/trend%3Aclaude-agent-skills-ecosystem-breakout)
+**Early signal** · Recommended action: **Watch** · [Full analysis →](http://localhost:3000/trends/trend%3Aflowise-agentic-no-code-platform-shuts-down-amid-crowded-low-code-ai-market)
 
-Multiple independent 'skills' repos for Claude Code (Anthropic's own, Addy Osmani's, mattpocock's, gstack, Superpowers, taste-skill, caveman, ui-ux-pro-max-skill) all first-seen 2026-07-31 with 60k-260k stars within days, corroborated by live monitoring (2026-07-14 to 2026-08-02) across GitHub topic velocity-breakout signals and thin but present HN mentions.
+FlowiseAI/Flowise, despite 55,163 stars and 24,834 forks, was flagged this week (2026-08-05 Hacker News front-page item) as shutting down — a single but consequential data point suggesting consolidation pressure in the crowded no-code/low-code agent-building space even for well-starred projects.
 
-- [Egonex-AI/Understand-Anything](https://github.com/egonex-ai/understand-anything)
-- [JuliusBrussee/caveman](https://github.com/juliusbrussee/caveman)
-- [Leonxlnx/taste-skill](https://github.com/leonxlnx/taste-skill)
-- [Superpowers](https://github.com/obra/superpowers)
-- [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
-- [anthropics/skills](https://github.com/anthropics/skills)
-- [gstack](https://github.com/garrytan/gstack)
-- [mattpocock/skills](https://github.com/mattpocock/skills)
-- [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
-- [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice)
+- [FlowiseAI/Flowise](https://github.com/flowiseai/flowise)
 
-## MCP tooling long-tail proliferation
+## ClawRAG data-quality noise persists
 
-**Strong trend** · Recommended action: **Adopt selectively** · [Full analysis →](https://up2d8.com/trends/trend%3Amcp-tooling-long-tail-proliferation)
+**Noise** · Recommended action: **No strategic change** · [Full analysis →](http://localhost:3000/trends/trend%3Aclawrag-data-quality-noise-persists)
 
-MCP Servers reference repo continues steady incremental growth (+81 stars/2 days) through the live monitoring period while dozens of niche MCP connectors (BlenderMCP +133 stars, GhidraMCP, Postgres MCP, fastapi_mcp, worldmonitor) persist at scale, indicating durable multi-week ecosystem breadth rather than a single spike.
+ClawRAG's tracked metrics have shown zero change for six consecutive days (2026-08-06 to 2026-08-09) and the underlying observed_metrics batch is confirmed to be sourced from an unrelated repository (ultralytics/yolov5), a data-pipeline defect rather than a real signal.
 
-- [AbletonMCP](https://github.com/ahujasid/ableton-mcp)
-- [BlenderMCP](https://github.com/ahujasid/blender-mcp)
-- [GhidraMCP](https://github.com/lauriewired/ghidramcp)
-- [MCP Servers](https://github.com/modelcontextprotocol/servers)
-- [Postgres MCP (crystaldba/postgres-mcp)](https://github.com/crystaldba/postgres-mcp)
-- [World Monitor (koala73/worldmonitor)](https://github.com/koala73/worldmonitor)
-- [fastapi_mcp](https://github.com/tadata-org/fastapi_mcp)
+- [ClawRAG](https://github.com/2dogsandanerd/clawrag)
 
-## Viral high-star repos with thin corroborating discussion (caution flag)
+## Legacy/mature developer tooling baseline sweep (no new momentum)
 
-**Early signal** · Recommended action: **Watch** · [Full analysis →](https://up2d8.com/trends/trend%3Aviral-high-star-repos-with-thin-corroborating-discussion-caution-flag)
+**Noise** · Recommended action: **No strategic change** · [Full analysis →](http://localhost:3000/trends/trend%3Alegacy-mature-developer-tooling-baseline-sweep-no-new-momentum)
 
-A cluster of first-seen (2026-07-31) repos show extremely high star counts (69k-390k) within days but only 1-3 low-point Hacker News mentions each during the live monitoring window, a pattern consistent with either genuine rapid breakout or star-count inflation that the current evidence cannot yet distinguish.
+A large batch of long-established, mature repositories (Atom, jQuery, Moment.js, Black, tmux, HTML5 Boilerplate, you-get) were captured only as first-time baseline snapshots this week with no contributor, PR, release, or community evidence indicating any acceleration — several are explicitly archived or in pure maintenance mode.
 
-- [Agency Agents](https://github.com/msitarzewski/agency-agents)
-- [Claw Code (ultraworkers)](https://github.com/ultraworkers/claw-code)
-- [Graphify](https://github.com/graphify-labs/graphify)
-- [MiroFish](https://github.com/666ghj/mirofish)
-- [Odysseus](https://github.com/odysseus-dev/odysseus)
-- [earendil-works/pi](https://github.com/earendil-works/pi)
-- [oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent)
-- [open-design (nexu-io)](https://github.com/nexu-io/open-design)
-- [openclaw/openclaw](https://github.com/openclaw/openclaw)
-- [ruvnet/RuView](https://github.com/ruvnet/ruview)
-
-## Decayed agentic hype spikes (AutoGPT-era projects plateauing)
-
-**Noise** · Recommended action: **No strategic change** · [Full analysis →](https://up2d8.com/trends/trend%3Adecayed-agentic-hype-spikes-autogpt-era-projects-plateauing)
-
-AutoResearchClaw shows flat growth (+73 stars/9 days, ~8/day) after an initial viral spike two months prior with no PR or contributor activity; AutoGPT and AgentGPT similarly show large static star bases with no fresh 2026 evidence during the live monitoring window, indicating the early-2023-style agent hype has decayed into maintenance mode.
-
-- [AgentGPT](https://github.com/reworkd/agentgpt)
-- [AutoGPT](https://github.com/significant-gravitas/autogpt)
-- [AutoGen](https://github.com/microsoft/autogen)
-- [AutoResearchClaw](https://github.com/aiming-lab/autoresearchclaw)
+- [Black (PSF)](https://github.com/psf/black)
+- [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate)
+- [Moment.js](https://github.com/moment/moment)
+- [atom/atom](https://github.com/atom/atom)
+- [jQuery](https://github.com/jquery/jquery)
+- [tmux](https://github.com/tmux/tmux)
+- [you-get](https://github.com/soimort/you-get)
 
 ---
 
@@ -171,6 +148,6 @@ AutoResearchClaw shows flat growth (+73 stars/9 days, ~8/day) after an initial v
 - A columnist writes only what that evidence supports.
 - Classifications before 14 July 2026 are retrospective model estimates calculated from reconstructed repository data — they were not published or assessed at the time. Live classifications begin on 14 July 2026.
 
-Machine-readable: [llms.txt](https://up2d8.com/llms.txt) · [RSS](https://up2d8.com/rss.xml)
+Machine-readable: [llms.txt](http://localhost:3000/llms.txt) · [RSS](http://localhost:3000/rss.xml)
 
-_Updated weekly from Issue 2026-W32. Inclusion is an observation, not an endorsement._
+_Updated weekly from Issue 2026-W33. Inclusion is an observation, not an endorsement._
