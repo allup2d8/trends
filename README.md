@@ -2,11 +2,11 @@
 
 > Evidence-led technology intelligence for engineering leaders. A new report every Monday at **[up2d8.com](http://localhost:3000)**.
 
-This list is the machine-readable tail of Issue **2026-W33**. Every trend below was classified by
+This list is the machine-readable tail of Issue **2026-W34**. Every trend below was classified by
 multi-day, multi-source consistency — never by a single spike — and every claim on the site
 carries a source link and the measurement window it came from.
 
-📄 **Read the full issue:** [Circumvention tooling's quiet persistence outlasts the agent gold rush](http://localhost:3000/report/2026-W33-circumvention-tooling-s-quiet-persistence-outlasts-the-agent-gold-rush)
+📄 **Read the full issue:** [The terminal is quietly becoming the centre of gravity for developer tooling](http://localhost:3000/report/2026-W34-the-terminal-is-quietly-becoming-the-centre-of-gravity-for-developer-tooling)
 
 | Ladder | Meaning |
 |---|---|
@@ -18,126 +18,111 @@ carries a source link and the measurement window it came from.
 
 ---
 
-## Proxy, VPN and censorship-circumvention tooling shows sustained large-scale interest
+## Terminal-native developer tooling renaissance
 
-**Durable shift** · Recommended action: **Watch** · [Full analysis →](http://localhost:3000/trends/trend%3Aproxy-vpn-and-censorship-circumvention-tooling-shows-sustained-large-scale-interest)
+**Durable shift** · Recommended action: **Adopt selectively** · [Full analysis →](http://localhost:3000/trends/trend%3Aterminal-native-developer-tooling-renaissance)
 
-A broad set of proxy/VPN-adjacent repos (v2rayNG, bannedbook/fanqiang, 3x-ui, Xray-core, v2ray-core, FlClash, dockur/windows) each registered 40k+ stars on first observation this week, indicating durable, longstanding demand for censorship-circumvention and network-tunnelling infrastructure rather than a new spike.
+A wide band of terminal/CLI-first tools (btop, kitty, Zellij, Atuin, zoxide, git-delta, just, Helix Editor) each show mature, high-star profiles (30k-46k stars) on first structured observation, with Helix Editor additionally showing recurring Hacker News engagement (100-330+ points) across multiple 2025 release cycles — evidence of a durable shift toward Rust-based, keyboard-driven terminal workflows replacing legacy GUI tooling.
 
-- [3x-ui](https://github.com/mhsanaei/3x-ui)
-- [FlClash](https://github.com/chen08209/flclash)
-- [Xray-core](https://github.com/xtls/xray-core)
-- [bannedbook/fanqiang — curated guide/aggregator for censorship-circumvention proxy tools (Shadowsocks, SSR, V2Ray, Trojan, Brook, Psiphon, and more)](https://github.com/bannedbook/fanqiang)
-- [dockur/windows](https://github.com/dockur/windows)
-- [v2ray/v2ray-core](https://github.com/v2ray/v2ray-core)
-- [v2rayNG](https://github.com/2dust/v2rayng)
+- [Helix Editor](https://helix-editor.com)
+- [Jujutsu (jj)](https://github.com/jj-vcs/jj)
+- [Zellij](https://github.com/zellij-org/zellij)
+- [atuinsh/atuin](https://github.com/atuinsh/atuin)
+- [btop](https://github.com/aristocratos/btop)
+- [dandavison/delta (git-delta)](https://github.com/dandavison/delta)
+- [just (command runner)](https://github.com/casey/just)
+- [kitty terminal](https://github.com/kovidgoyal/kitty)
+- [zoxide](https://github.com/ajeetdsouza/zoxide)
 
-## Agentic coding assistants and AI dev-agent frameworks consolidate around a few breakout projects
+## Kubernetes-adjacent lightweight infrastructure tooling
 
-**Strong trend** · Recommended action: **Experiment** · [Full analysis →](http://localhost:3000/trends/trend%3Aagentic-coding-assistants-and-ai-dev-agent-frameworks-consolidate-around-a-few-breakout-projects)
+**Strong trend** · Recommended action: **Adopt selectively** · [Full analysis →](http://localhost:3000/trends/trend%3Akubernetes-adjacent-lightweight-infrastructure-tooling)
 
-Cline, Agno, BMAD-METHOD, HKUDS Nanobot, Vercel Agent Browser and several China-origin agent frameworks (BettaFish, CowAgent, ruflo, orca) all surfaced as first-time observations this single week (2026-08-03 to 2026-08-09), each with tens of thousands of stars already, and GPT-5.2-Codex's underlying openai/codex repo shows 104,843 stars — evidence is single-day/first-seen for every entity so no multi-day momentum can yet be confirmed, but the sheer density of new high-star agentic tooling across GitHub and Hacker News in one week signals a maturing category.
+K3s, Portainer, k9s, Tailscale, MetaCubeX/mihomo and Nuclei each debut this week at 30k-38k stars with low fork-to-star ratios typical of actively used ops tooling, reflecting continued enterprise pull toward lightweight, self-hosted alternatives to heavyweight Kubernetes/networking stacks.
 
-- [Agno](https://github.com/agno-agi/agno)
-- [BMAD-METHOD](https://github.com/bmad-code-org/bmad-method)
-- [BettaFish](https://github.com/666ghj/bettafish)
-- [Cline](https://github.com/cline/cline)
-- [FlowiseAI/Flowise](https://github.com/flowiseai/flowise)
-- [GPT-5.2-Codex](https://openai.com/index/gpt-5-2-codex-system-card)
-- [HKUDS Nanobot](https://github.com/hkuds/nanobot)
-- [LibreChat](https://github.com/danny-avila/librechat)
-- [Open Interpreter](https://github.com/openinterpreter/openinterpreter)
-- [Vercel Agent Browser](https://github.com/vercel-labs/agent-browser)
-- [orca (stablyai)](https://github.com/stablyai/orca)
-- [ruflo](https://github.com/ruvnet/ruflo)
-- [zhayujie/CowAgent](https://github.com/zhayujie/cowagent)
+- [Backstage](https://github.com/backstage/backstage)
+- [K3s](https://github.com/k3s-io/k3s)
+- [MetaCubeX/mihomo](https://github.com/metacubex/mihomo)
+- [Nuclei (projectdiscovery) — Fast vulnerability scanner](https://github.com/projectdiscovery/nuclei)
+- [Portainer](https://github.com/portainer/portainer)
+- [Tailscale](https://github.com/tailscale/tailscale)
+- [k9s](https://github.com/derailed/k9s)
 
-## AI-native document and knowledge processing for RAG pipelines
+## Open-source voice AI models gain traction
 
-**Strong trend** · Recommended action: **Experiment** · [Full analysis →](http://localhost:3000/trends/trend%3Aai-native-document-and-knowledge-processing-for-rag-pipelines)
+**Strong trend** · Recommended action: **Experiment** · [Full analysis →](http://localhost:3000/trends/trend%3Aopen-source-voice-ai-models-gain-traction)
 
-Docling (IBM) and FAISS (Meta) both show substantial GitHub scale on first observation this week (64,137 and 40,696 stars respectively), reflecting continued infrastructure investment in retrieval pipelines, while ClawRAG remains flagged as noise for the sixth consecutive day due to a persistent data-source mismatch against ultralytics/yolov5.
+Fish Speech and VoxCPM, both open-source TTS/voice-cloning models, show strong star counts (32k-35k) with Fish Speech additionally showing repeated Hacker News discussion across three separate 2024 version releases (1.1, 1.3, 1.5), indicating sustained community engagement with open voice-synthesis models rather than a single launch spike.
 
-- [Docling](https://github.com/docling-project/docling)
-- [FAISS](https://github.com/facebookresearch/faiss)
+- [Fish Speech](https://github.com/fishaudio/fish-speech)
+- [VoxCPM](https://github.com/openbmb/voxcpm)
 
-## Self-hosted / local-first AI infrastructure gains enterprise traction
+## AI agent harnesses and coding CLIs go mainstream
 
-**Strong trend** · Recommended action: **Adopt selectively** · [Full analysis →](http://localhost:3000/trends/trend%3Aself-hosted-local-first-ai-infrastructure-gains-enterprise-traction)
+**Emerging trend** · Recommended action: **Experiment** · [Full analysis →](http://localhost:3000/trends/trend%3Aai-agent-harnesses-and-coding-clis-go-mainstream)
 
-A cluster of self-hosted AI inference and gateway tools (LocalAI, LiteLLM, DeepSpeed, Ray, MiniMind, OmniRoute, QuantumNous new-api, PrivateGPT) each posted large star bases on first observation this week; LiteLLM's evidence additionally includes a documented supply-chain compromise (938 and 739-point Hacker News threads) underscoring real production usage at scale, though all metrics are single-snapshot with no delta history yet.
+Over a dozen distinct agentic-development repos (Claude plugins, DeepSeek harness, ByteDance UI-TARS, ChatDev, CopilotKit, AstrBot, AI Agent Book, wshobson/agents, NanoClaw, zeroclaw, oh-my-claudecode, AionUi, QwenPaw) each surfaced with first-time observations in the 2026-08-10 to 2026-08-16 window, several already at 30k+ stars within ~2 weeks of being first seen, indicating a broad wave of agent-harness and coding-CLI tooling built atop Claude, DeepSeek and GPT-family models.
 
-- [DeepSpeed](https://github.com/deepspeedai/deepspeed)
-- [LiteLLM (BerriAI/litellm)](https://github.com/berriai/litellm)
-- [LocalAI](https://github.com/mudler/localai)
-- [MiniMind](https://github.com/jingyaogong/minimind)
-- [OmniRoute (diegosouzapw)](https://github.com/diegosouzapw/omniroute)
-- [PrivateGPT](https://github.com/zylon-ai/private-gpt)
-- [QuantumNous/new-api](https://github.com/quantumnous/new-api)
-- [Ray](https://github.com/ray-project/ray)
+- [AI Agent Book](https://github.com/bojieli/ai-agent-book)
+- [AstrBot](https://github.com/astrbotdevs/astrbot)
+- [Bytedance/UI-TARS-desktop — GUI agent with vision-language model computer-use automation (foundation of Agent TARS / agentic browser use, MCP server, multimodal)](https://github.com/bytedance/ui-tars-desktop)
+- [ChatDev](https://github.com/openbmb/chatdev)
+- [CopilotKit](https://github.com/copilotkit/copilotkit)
+- [DeepSeek-Reasonix](https://github.com/esengine/deepseek-reasonix)
+- [HKUDS/DeepTutor](https://github.com/hkuds/deeptutor)
+- [NanoClaw](https://github.com/nanocoai/nanoclaw)
+- [OpenClaude](https://github.com/gitlawb/openclaude)
+- [QwenPaw](https://github.com/agentscope-ai/qwenpaw)
+- [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official)
+- [claude-code-router (musistudio)](https://github.com/musistudio/claude-code-router)
+- [deepseek-ai/deepseek-harness — DeepSeek agent harness (dsh) / CORDIS workflow plugin system for LLM agents](https://github.com/deepseek-ai/deepseek-harness)
+- [iOfficeAI/AionUi](https://github.com/iofficeai/aionui)
+- [mindsdb/mindshub](https://github.com/mindsdb/mindshub)
+- [oh-my-claudecode (Yeachan-Heo)](https://github.com/yeachan-heo/oh-my-claudecode)
+- [wshobson/agents](https://github.com/wshobson/agents)
+- [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw)
 
-## AI-assisted developer education and prompt-engineering references surge in popularity
+## Efficient local LLM inference tooling matures
 
-**Emerging trend** · Recommended action: **Watch** · [Full analysis →](http://localhost:3000/trends/trend%3Aai-assisted-developer-education-and-prompt-engineering-references-surge-in-popularity)
+**Emerging trend** · Recommended action: **Experiment** · [Full analysis →](http://localhost:3000/trends/trend%3Aefficient-local-llm-inference-tooling-matures)
 
-Multiple curated AI/LLM education repos (system prompt leak collections, Microsoft's AI Agents for Beginners, AI Engineering from Scratch, professional-programming) posted tens of thousands of stars on first observation this week, suggesting strong developer appetite for structured AI learning material, though each is a single first-seen snapshot with no velocity history.
+A cluster of inference-efficiency projects — LLM Fit, BitNet, AirLLM, SGLang, tinygrad — each recorded first observations this week with 30k+ stars, spanning GGUF/quantization, 1-bit LLM inference, layer-wise consumer-hardware inference, and high-throughput serving frameworks, indicating sustained developer investment in making large models run cheaper and faster outside hyperscaler infrastructure.
 
-- [AI Engineering from Scratch](https://github.com/rohitg00/ai-engineering-from-scratch)
-- [AI for Beginners](https://github.com/microsoft/ai-for-beginners)
-- [Microsoft AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners)
-- [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks)
-- [charlax/professional-programming](https://github.com/charlax/professional-programming)
+- [AirLLM — run LLMs locally on consumer hardware via memory-efficient layer-wise inference](https://github.com/lyogavin/airllm)
+- [BitNet](https://github.com/microsoft/bitnet)
+- [LLM Fit (AlexsJones/llmfit)](https://github.com/alexsjones/llmfit)
+- [SGLang](https://github.com/sgl-project/sglang)
+- [tinygrad](https://github.com/tinygrad/tinygrad)
 
-## MCP (Model Context Protocol) tooling proliferates across the stack
+## MCP becomes the default integration layer for agentic tools
 
-**Emerging trend** · Recommended action: **Experiment** · [Full analysis →](http://localhost:3000/trends/trend%3Amcp-model-context-protocol-tooling-proliferates-across-the-stack)
+**Emerging trend** · Recommended action: **Adopt selectively** · [Full analysis →](http://localhost:3000/trends/trend%3Amcp-becomes-the-default-integration-layer-for-agentic-tools)
 
-Multiple independent MCP-tagged repos (Chrome DevTools MCP, Goose, HyperFrames, MemPalace, Upstash Context7) were all first observed this week with substantial star counts and, in Chrome DevTools MCP's case, a documented velocity breakout on GitHub's 'mcp' topic plus a 604-point/234-comment Hacker News thread — evidence remains first-seen/single-day per entity, but the breadth of MCP server tooling appearing simultaneously indicates the protocol is becoming a default integration layer for AI tools.
+Multiple independent MCP server projects (GitHub's official server, Microsoft Playwright MCP, Codebase Memory MCP) each posted first observations this week with 30k+ stars, alongside MCP-tagged agent platforms like AstrBot and UI-TARS-desktop, showing MCP adoption spreading beyond a single vendor across GitHub, Microsoft and independent developers.
 
-- [Chrome DevTools MCP](https://developer.chrome.com/blog/chrome-devtools-mcp-debug-your-browser-session)
-- [Goose (aaif-goose)](https://github.com/aaif-goose/goose)
-- [HyperFrames](https://github.com/heygen-com/hyperframes)
-- [MemPalace](https://github.com/mempalace/mempalace)
-- [Upstash Context7](https://github.com/upstash/context7)
+- [Codebase Memory MCP](https://github.com/deusdata/codebase-memory-mcp)
+- [GitHub MCP Server (github/github-mcp-server)](https://github.com/github/github-mcp-server)
+- [Playwright MCP](https://github.com/microsoft/playwright-mcp)
 
-## AI security and offensive-tooling repos emerge as a distinct category
+## RAG architecture diversifies beyond vector databases
 
-**Early signal** · Recommended action: **Watch** · [Full analysis →](http://localhost:3000/trends/trend%3Aai-security-and-offensive-tooling-repos-emerge-as-a-distinct-category)
+**Early signal** · Recommended action: **Watch** · [Full analysis →](http://localhost:3000/trends/trend%3Arag-architecture-diversifies-beyond-vector-databases)
 
-KeygraphHQ/Shannon and Strix both surfaced this week as first-observation AI-focused penetration-testing/security tools with 46k–49k stars, indicating nascent but notable crossover between LLM tooling and offensive security research; evidence is limited to single-day GitHub snapshots for both.
-
-- [KeygraphHQ Shannon](https://github.com/keygraphhq/shannon)
-- [Strix](https://github.com/usestrix/strix)
-
-## Flowise agentic no-code platform shuts down amid crowded low-code AI market
-
-**Early signal** · Recommended action: **Watch** · [Full analysis →](http://localhost:3000/trends/trend%3Aflowise-agentic-no-code-platform-shuts-down-amid-crowded-low-code-ai-market)
-
-FlowiseAI/Flowise, despite 55,163 stars and 24,834 forks, was flagged this week (2026-08-05 Hacker News front-page item) as shutting down — a single but consequential data point suggesting consolidation pressure in the crowded no-code/low-code agent-building space even for well-starred projects.
-
-- [FlowiseAI/Flowise](https://github.com/flowiseai/flowise)
-
-## ClawRAG data-quality noise persists
-
-**Noise** · Recommended action: **No strategic change** · [Full analysis →](http://localhost:3000/trends/trend%3Aclawrag-data-quality-noise-persists)
-
-ClawRAG's tracked metrics have shown zero change for six consecutive days (2026-08-06 to 2026-08-09) and the underlying observed_metrics batch is confirmed to be sourced from an unrelated repository (ultralytics/yolov5), a data-pipeline defect rather than a real signal.
+New RAG-adjacent repositories this week span graph-based retrieval (LightRAG, Microsoft GraphRAG) and explicitly 'vectorless' retrieval (PageIndex), each a first observation with 35k+ stars, suggesting experimentation with retrieval architectures beyond standard vector-embedding pipelines, while ClawRAG shows near-zero movement (152 stars, flat for 7 consecutive days) and continued data-source mismatches.
 
 - [ClawRAG](https://github.com/2dogsandanerd/clawrag)
+- [LightRAG (HKUDS/LightRAG)](https://github.com/hkuds/lightrag)
+- [Microsoft GraphRAG](https://github.com/microsoft/graphrag)
+- [PageIndex](https://github.com/vectifyai/pageindex)
+- [khoj-ai/khoj — self-hosted AI second brain / personal assistant (RAG, Obsidian, Emacs, WhatsApp, offline LLM, semantic search)](https://github.com/khoj-ai/khoj)
 
-## Legacy/mature developer tooling baseline sweep (no new momentum)
+## Data-source mismatch and stale evidence undermine several 'trend' candidates
 
-**Noise** · Recommended action: **No strategic change** · [Full analysis →](http://localhost:3000/trends/trend%3Alegacy-mature-developer-tooling-baseline-sweep-no-new-momentum)
+**Noise** · Recommended action: **No strategic change** · [Full analysis →](http://localhost:3000/trends/trend%3Adata-source-mismatch-and-stale-evidence-undermine-several-trend-candidates)
 
-A large batch of long-established, mature repositories (Atom, jQuery, Moment.js, Black, tmux, HTML5 Boilerplate, you-get) were captured only as first-time baseline snapshots this week with no contributor, PR, release, or community evidence indicating any acceleration — several are explicitly archived or in pure maintenance mode.
+ClawRAG shows zero star/fork/issue movement across 7 consecutive tracked days with a persistent observed-metrics mismatch pointing to an unrelated repository (ultralytics/yolov5), while several other entities (jackjackbits/bitchat, xxl-job, WSL, minikube) rely solely on multi-year-old Hacker News citations rather than current activity.
 
-- [Black (PSF)](https://github.com/psf/black)
-- [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate)
-- [Moment.js](https://github.com/moment/moment)
-- [atom/atom](https://github.com/atom/atom)
-- [jQuery](https://github.com/jquery/jquery)
-- [tmux](https://github.com/tmux/tmux)
-- [you-get](https://github.com/soimort/you-get)
+- [ClawRAG](https://github.com/2dogsandanerd/clawrag)
 
 ---
 
@@ -150,4 +135,4 @@ A large batch of long-established, mature repositories (Atom, jQuery, Moment.js,
 
 Machine-readable: [llms.txt](http://localhost:3000/llms.txt) · [RSS](http://localhost:3000/rss.xml)
 
-_Updated weekly from Issue 2026-W33. Inclusion is an observation, not an endorsement._
+_Updated weekly from Issue 2026-W34. Inclusion is an observation, not an endorsement._
