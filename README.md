@@ -1,12 +1,12 @@
 # Up2d8 — Technology Trends to Watch
 
-> Evidence-led technology intelligence for engineering leaders. A new report every Monday at **[up2d8.com](http://localhost:3000)**.
+> Evidence-led technology intelligence for engineering leaders. A new report every Monday at **[up2d8.com](https://up2d8.com)**.
 
 This list is the machine-readable tail of Issue **2026-W34**. Every trend below was classified by
 multi-day, multi-source consistency — never by a single spike — and every claim on the site
 carries a source link and the measurement window it came from.
 
-📄 **Read the full issue:** [The terminal is quietly becoming the centre of gravity for developer tooling](http://localhost:3000/report/2026-W34-the-terminal-is-quietly-becoming-the-centre-of-gravity-for-developer-tooling)
+📄 **Read the full issue:** [The terminal is quietly becoming the centre of gravity for developer tooling](https://up2d8.com/report/2026-W34-the-terminal-is-quietly-becoming-the-centre-of-gravity-for-developer-tooling)
 
 | Ladder | Meaning |
 |---|---|
@@ -20,7 +20,7 @@ carries a source link and the measurement window it came from.
 
 ## Terminal-native developer tooling renaissance
 
-**Durable shift** · Recommended action: **Adopt selectively** · [Full analysis →](http://localhost:3000/trends/trend%3Aterminal-native-developer-tooling-renaissance)
+**Durable shift** · Recommended action: **Adopt selectively** · [Full analysis →](https://up2d8.com/trends/trend%3Aterminal-native-developer-tooling-renaissance)
 
 A wide band of terminal/CLI-first tools (btop, kitty, Zellij, Atuin, zoxide, git-delta, just, Helix Editor) each show mature, high-star profiles (30k-46k stars) on first structured observation, with Helix Editor additionally showing recurring Hacker News engagement (100-330+ points) across multiple 2025 release cycles — evidence of a durable shift toward Rust-based, keyboard-driven terminal workflows replacing legacy GUI tooling.
 
@@ -36,7 +36,7 @@ A wide band of terminal/CLI-first tools (btop, kitty, Zellij, Atuin, zoxide, git
 
 ## Kubernetes-adjacent lightweight infrastructure tooling
 
-**Strong trend** · Recommended action: **Adopt selectively** · [Full analysis →](http://localhost:3000/trends/trend%3Akubernetes-adjacent-lightweight-infrastructure-tooling)
+**Strong trend** · Recommended action: **Adopt selectively** · [Full analysis →](https://up2d8.com/trends/trend%3Akubernetes-adjacent-lightweight-infrastructure-tooling)
 
 K3s, Portainer, k9s, Tailscale, MetaCubeX/mihomo and Nuclei each debut this week at 30k-38k stars with low fork-to-star ratios typical of actively used ops tooling, reflecting continued enterprise pull toward lightweight, self-hosted alternatives to heavyweight Kubernetes/networking stacks.
 
@@ -50,7 +50,7 @@ K3s, Portainer, k9s, Tailscale, MetaCubeX/mihomo and Nuclei each debut this week
 
 ## Open-source voice AI models gain traction
 
-**Strong trend** · Recommended action: **Experiment** · [Full analysis →](http://localhost:3000/trends/trend%3Aopen-source-voice-ai-models-gain-traction)
+**Strong trend** · Recommended action: **Experiment** · [Full analysis →](https://up2d8.com/trends/trend%3Aopen-source-voice-ai-models-gain-traction)
 
 Fish Speech and VoxCPM, both open-source TTS/voice-cloning models, show strong star counts (32k-35k) with Fish Speech additionally showing repeated Hacker News discussion across three separate 2024 version releases (1.1, 1.3, 1.5), indicating sustained community engagement with open voice-synthesis models rather than a single launch spike.
 
@@ -59,7 +59,7 @@ Fish Speech and VoxCPM, both open-source TTS/voice-cloning models, show strong s
 
 ## AI agent harnesses and coding CLIs go mainstream
 
-**Emerging trend** · Recommended action: **Experiment** · [Full analysis →](http://localhost:3000/trends/trend%3Aai-agent-harnesses-and-coding-clis-go-mainstream)
+**Emerging trend** · Recommended action: **Experiment** · [Full analysis →](https://up2d8.com/trends/trend%3Aai-agent-harnesses-and-coding-clis-go-mainstream)
 
 Over a dozen distinct agentic-development repos (Claude plugins, DeepSeek harness, ByteDance UI-TARS, ChatDev, CopilotKit, AstrBot, AI Agent Book, wshobson/agents, NanoClaw, zeroclaw, oh-my-claudecode, AionUi, QwenPaw) each surfaced with first-time observations in the 2026-08-10 to 2026-08-16 window, several already at 30k+ stars within ~2 weeks of being first seen, indicating a broad wave of agent-harness and coding-CLI tooling built atop Claude, DeepSeek and GPT-family models.
 
@@ -84,7 +84,7 @@ Over a dozen distinct agentic-development repos (Claude plugins, DeepSeek harnes
 
 ## Efficient local LLM inference tooling matures
 
-**Emerging trend** · Recommended action: **Experiment** · [Full analysis →](http://localhost:3000/trends/trend%3Aefficient-local-llm-inference-tooling-matures)
+**Emerging trend** · Recommended action: **Experiment** · [Full analysis →](https://up2d8.com/trends/trend%3Aefficient-local-llm-inference-tooling-matures)
 
 A cluster of inference-efficiency projects — LLM Fit, BitNet, AirLLM, SGLang, tinygrad — each recorded first observations this week with 30k+ stars, spanning GGUF/quantization, 1-bit LLM inference, layer-wise consumer-hardware inference, and high-throughput serving frameworks, indicating sustained developer investment in making large models run cheaper and faster outside hyperscaler infrastructure.
 
@@ -96,7 +96,7 @@ A cluster of inference-efficiency projects — LLM Fit, BitNet, AirLLM, SGLang, 
 
 ## MCP becomes the default integration layer for agentic tools
 
-**Emerging trend** · Recommended action: **Adopt selectively** · [Full analysis →](http://localhost:3000/trends/trend%3Amcp-becomes-the-default-integration-layer-for-agentic-tools)
+**Emerging trend** · Recommended action: **Adopt selectively** · [Full analysis →](https://up2d8.com/trends/trend%3Amcp-becomes-the-default-integration-layer-for-agentic-tools)
 
 Multiple independent MCP server projects (GitHub's official server, Microsoft Playwright MCP, Codebase Memory MCP) each posted first observations this week with 30k+ stars, alongside MCP-tagged agent platforms like AstrBot and UI-TARS-desktop, showing MCP adoption spreading beyond a single vendor across GitHub, Microsoft and independent developers.
 
@@ -106,7 +106,7 @@ Multiple independent MCP server projects (GitHub's official server, Microsoft Pl
 
 ## RAG architecture diversifies beyond vector databases
 
-**Early signal** · Recommended action: **Watch** · [Full analysis →](http://localhost:3000/trends/trend%3Arag-architecture-diversifies-beyond-vector-databases)
+**Early signal** · Recommended action: **Watch** · [Full analysis →](https://up2d8.com/trends/trend%3Arag-architecture-diversifies-beyond-vector-databases)
 
 New RAG-adjacent repositories this week span graph-based retrieval (LightRAG, Microsoft GraphRAG) and explicitly 'vectorless' retrieval (PageIndex), each a first observation with 35k+ stars, suggesting experimentation with retrieval architectures beyond standard vector-embedding pipelines, while ClawRAG shows near-zero movement (152 stars, flat for 7 consecutive days) and continued data-source mismatches.
 
@@ -118,7 +118,7 @@ New RAG-adjacent repositories this week span graph-based retrieval (LightRAG, Mi
 
 ## Data-source mismatch and stale evidence undermine several 'trend' candidates
 
-**Noise** · Recommended action: **No strategic change** · [Full analysis →](http://localhost:3000/trends/trend%3Adata-source-mismatch-and-stale-evidence-undermine-several-trend-candidates)
+**Noise** · Recommended action: **No strategic change** · [Full analysis →](https://up2d8.com/trends/trend%3Adata-source-mismatch-and-stale-evidence-undermine-several-trend-candidates)
 
 ClawRAG shows zero star/fork/issue movement across 7 consecutive tracked days with a persistent observed-metrics mismatch pointing to an unrelated repository (ultralytics/yolov5), while several other entities (jackjackbits/bitchat, xxl-job, WSL, minikube) rely solely on multi-year-old Hacker News citations rather than current activity.
 
@@ -133,6 +133,6 @@ ClawRAG shows zero star/fork/issue movement across 7 consecutive tracked days wi
 - A columnist writes only what that evidence supports.
 - Classifications before 14 July 2026 are retrospective model estimates calculated from reconstructed repository data — they were not published or assessed at the time. Live classifications begin on 14 July 2026.
 
-Machine-readable: [llms.txt](http://localhost:3000/llms.txt) · [RSS](http://localhost:3000/rss.xml)
+Machine-readable: [llms.txt](https://up2d8.com/llms.txt) · [RSS](https://up2d8.com/rss.xml)
 
 _Updated weekly from Issue 2026-W34. Inclusion is an observation, not an endorsement._
