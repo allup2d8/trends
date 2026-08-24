@@ -2,11 +2,11 @@
 
 > Evidence-led technology intelligence for engineering leaders. A new report every Monday at **[up2d8.com](https://up2d8.com)**.
 
-This list is the machine-readable tail of Issue **2026-W34**. Every trend below was classified by
+This list is the machine-readable tail of Issue **2026-W35**. Every trend below was classified by
 multi-day, multi-source consistency — never by a single spike — and every claim on the site
 carries a source link and the measurement window it came from.
 
-📄 **Read the full issue:** [The terminal is quietly becoming the centre of gravity for developer tooling](https://up2d8.com/report/2026-W34-the-terminal-is-quietly-becoming-the-centre-of-gravity-for-developer-tooling)
+📄 **Read the full issue:** [DeepSeek's agent harness is the fastest-moving repository on GitHub — but its health metrics are missing](https://up2d8.com/report/2026-W35-deepseek-s-agent-harness-is-the-fastest-moving-repository-on-github-but-its-health-metrics-are-missing)
 
 | Ladder | Meaning |
 |---|---|
@@ -18,111 +18,158 @@ carries a source link and the measurement window it came from.
 
 ---
 
-## Terminal-native developer tooling renaissance
+## OpenAI's enterprise and governance footprint expands beyond model releases
 
-**Durable shift** · Recommended action: **Adopt selectively** · [Full analysis →](https://up2d8.com/trends/trend%3Aterminal-native-developer-tooling-renaissance)
+**Durable shift** · Recommended action: **Adopt selectively** · [Full analysis →](https://up2d8.com/trends/trend%3Aopenai-s-enterprise-and-governance-footprint-expands-beyond-model-releases)
 
-A wide band of terminal/CLI-first tools (btop, kitty, Zellij, Atuin, zoxide, git-delta, just, Helix Editor) each show mature, high-star profiles (30k-46k stars) on first structured observation, with Helix Editor additionally showing recurring Hacker News engagement (100-330+ points) across multiple 2025 release cycles — evidence of a durable shift toward Rust-based, keyboard-driven terminal workflows replacing legacy GUI tooling.
+A single day of aggregated OpenAI coverage (board appointments, S-1 filing, Deutsche Telekom/Travelers/Stadler partnerships, DevDay 2025, Gartner recognition) spans blog, GitHub, and Hacker News sources, indicating consolidation of OpenAI's enterprise and corporate-governance narrative rather than a new product signal.
 
-- [Helix Editor](https://helix-editor.com)
-- [Jujutsu (jj)](https://github.com/jj-vcs/jj)
-- [Zellij](https://github.com/zellij-org/zellij)
-- [atuinsh/atuin](https://github.com/atuinsh/atuin)
-- [btop](https://github.com/aristocratos/btop)
-- [dandavison/delta (git-delta)](https://github.com/dandavison/delta)
-- [just (command runner)](https://github.com/casey/just)
-- [kitty terminal](https://github.com/kovidgoyal/kitty)
-- [zoxide](https://github.com/ajeetdsouza/zoxide)
+- [OpenAI](https://openai.com/index/adebayo-ogunlesi-joins-openais-board-of-directors)
 
-## Kubernetes-adjacent lightweight infrastructure tooling
+## Agentic development platforms scale up as an infrastructure category
 
-**Strong trend** · Recommended action: **Adopt selectively** · [Full analysis →](https://up2d8.com/trends/trend%3Akubernetes-adjacent-lightweight-infrastructure-tooling)
+**Strong trend** · Recommended action: **Experiment** · [Full analysis →](https://up2d8.com/trends/trend%3Aagentic-development-platforms-scale-up-as-an-infrastructure-category)
 
-K3s, Portainer, k9s, Tailscale, MetaCubeX/mihomo and Nuclei each debut this week at 30k-38k stars with low fork-to-star ratios typical of actively used ops tooling, reflecting continued enterprise pull toward lightweight, self-hosted alternatives to heavyweight Kubernetes/networking stacks.
+Established agent frameworks (AgentScope, Composio, OpenManus successor ecosystem, Vercel AI SDK, Deep Agents, Page Agent, OpenViking, herdrdev/herdr) each report first-observation star counts of 26k-30k, with Composio and Vercel AI SDK specifically flagged as strong trend candidates on raw scale (29,727 and 26,342 stars respectively), though no repo yet shows multi-day momentum data.
 
-- [Backstage](https://github.com/backstage/backstage)
-- [K3s](https://github.com/k3s-io/k3s)
-- [MetaCubeX/mihomo](https://github.com/metacubex/mihomo)
-- [Nuclei (projectdiscovery) — Fast vulnerability scanner](https://github.com/projectdiscovery/nuclei)
-- [Portainer](https://github.com/portainer/portainer)
-- [Tailscale](https://github.com/tailscale/tailscale)
-- [k9s](https://github.com/derailed/k9s)
+- [AgentMemory (rohitg00)](https://github.com/rohitg00/agentmemory)
+- [AgentScope](https://github.com/agentscope-ai/agentscope)
+- [Composio](https://github.com/composiohq/composio)
+- [Deep Agents (langchain-ai/deepagents)](https://github.com/langchain-ai/deepagents)
+- [OpenCLI (jackwener/OpenCLI)](https://github.com/jackwener/opencli)
+- [Page Agent (Alibaba)](https://github.com/alibaba/page-agent)
+- [Vercel AI SDK (vercel/ai)](https://github.com/vercel/ai)
+- [herdrdev/herdr](https://github.com/herdrdev/herdr)
+- [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory)
+- [volcengine/OpenViking](https://github.com/volcengine/openviking)
 
-## Open-source voice AI models gain traction
+## DeepSeek's open-source agent harness sees explosive, sustained star growth
 
-**Strong trend** · Recommended action: **Experiment** · [Full analysis →](https://up2d8.com/trends/trend%3Aopen-source-voice-ai-models-gain-traction)
+**Strong trend** · Recommended action: **Experiment** · [Full analysis →](https://up2d8.com/trends/trend%3Adeepseek-s-open-source-agent-harness-sees-explosive-sustained-star-growth)
 
-Fish Speech and VoxCPM, both open-source TTS/voice-cloning models, show strong star counts (32k-35k) with Fish Speech additionally showing repeated Hacker News discussion across three separate 2024 version releases (1.1, 1.3, 1.5), indicating sustained community engagement with open voice-synthesis models rather than a single launch spike.
+DeepSeek Harness (dsh/CORDIS) grew from 139,303 to 169,431 stars (+30,128) and 14,114 to 18,175 forks (+4,061) across three consecutive days (17-20 Aug), corroborated by an InfoQ feature on its open-sourcing as modular agent infrastructure.
 
-- [Fish Speech](https://github.com/fishaudio/fish-speech)
-- [VoxCPM](https://github.com/openbmb/voxcpm)
-
-## AI agent harnesses and coding CLIs go mainstream
-
-**Emerging trend** · Recommended action: **Experiment** · [Full analysis →](https://up2d8.com/trends/trend%3Aai-agent-harnesses-and-coding-clis-go-mainstream)
-
-Over a dozen distinct agentic-development repos (Claude plugins, DeepSeek harness, ByteDance UI-TARS, ChatDev, CopilotKit, AstrBot, AI Agent Book, wshobson/agents, NanoClaw, zeroclaw, oh-my-claudecode, AionUi, QwenPaw) each surfaced with first-time observations in the 2026-08-10 to 2026-08-16 window, several already at 30k+ stars within ~2 weeks of being first seen, indicating a broad wave of agent-harness and coding-CLI tooling built atop Claude, DeepSeek and GPT-family models.
-
-- [AI Agent Book](https://github.com/bojieli/ai-agent-book)
-- [AstrBot](https://github.com/astrbotdevs/astrbot)
-- [Bytedance/UI-TARS-desktop — GUI agent with vision-language model computer-use automation (foundation of Agent TARS / agentic browser use, MCP server, multimodal)](https://github.com/bytedance/ui-tars-desktop)
-- [ChatDev](https://github.com/openbmb/chatdev)
-- [CopilotKit](https://github.com/copilotkit/copilotkit)
-- [DeepSeek-Reasonix](https://github.com/esengine/deepseek-reasonix)
-- [HKUDS/DeepTutor](https://github.com/hkuds/deeptutor)
-- [NanoClaw](https://github.com/nanocoai/nanoclaw)
-- [OpenClaude](https://github.com/gitlawb/openclaude)
-- [QwenPaw](https://github.com/agentscope-ai/qwenpaw)
-- [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official)
-- [claude-code-router (musistudio)](https://github.com/musistudio/claude-code-router)
 - [deepseek-ai/deepseek-harness — DeepSeek agent harness (dsh) / CORDIS workflow plugin system for LLM agents](https://github.com/deepseek-ai/deepseek-harness)
-- [iOfficeAI/AionUi](https://github.com/iofficeai/aionui)
-- [mindsdb/mindshub](https://github.com/mindsdb/mindshub)
-- [oh-my-claudecode (Yeachan-Heo)](https://github.com/yeachan-heo/oh-my-claudecode)
-- [wshobson/agents](https://github.com/wshobson/agents)
-- [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw)
 
-## Efficient local LLM inference tooling matures
+## Proxmox and self-hosted infrastructure tooling sustains strong community pull
 
-**Emerging trend** · Recommended action: **Experiment** · [Full analysis →](https://up2d8.com/trends/trend%3Aefficient-local-llm-inference-tooling-matures)
+**Strong trend** · Recommended action: **Watch** · [Full analysis →](https://up2d8.com/trends/trend%3Aproxmox-and-self-hosted-infrastructure-tooling-sustains-strong-community-pull)
 
-A cluster of inference-efficiency projects — LLM Fit, BitNet, AirLLM, SGLang, tinygrad — each recorded first observations this week with 30k+ stars, spanning GGUF/quantization, 1-bit LLM inference, layer-wise consumer-hardware inference, and high-throughput serving frameworks, indicating sustained developer investment in making large models run cheaper and faster outside hyperscaler infrastructure.
+Proxmox VE Helper-Scripts shows 29,298 stars with an unusually clean issue tracker (16 open issues) and historical Hacker News validation (238 points, 2024 Show HN), while adjacent self-hosted infra tools (NetBird, OpenTofu, Harbor, Dapr, wg-easy) each cleared 26k-30k stars in first observation, signalling broad appetite for self-managed infrastructure alternatives to hyperscaler services.
 
-- [AirLLM — run LLMs locally on consumer hardware via memory-efficient layer-wise inference](https://github.com/lyogavin/airllm)
-- [BitNet](https://github.com/microsoft/bitnet)
-- [LLM Fit (AlexsJones/llmfit)](https://github.com/alexsjones/llmfit)
-- [SGLang](https://github.com/sgl-project/sglang)
-- [tinygrad](https://github.com/tinygrad/tinygrad)
+- [Dapr (dapr/dapr) — CNCF distributed application runtime for microservices](https://github.com/dapr/dapr)
+- [Harbor — CNCF container registry](https://github.com/goharbor/harbor)
+- [NetBird](https://github.com/netbirdio/netbird)
+- [OpenTofu](https://github.com/opentofu/opentofu)
+- [Proxmox VE Helper-Scripts (community-scripts)](https://github.com/community-scripts/proxmoxve)
+- [hwdsl2/setup-ipsec-vpn — IPSec/L2TP/IKEv2 VPN server installer](https://github.com/hwdsl2/setup-ipsec-vpn)
+- [wg-easy](https://github.com/wg-easy/wg-easy)
 
-## MCP becomes the default integration layer for agentic tools
+## Secrets, identity, and access-control tooling shows steady enterprise-relevant traction
 
-**Emerging trend** · Recommended action: **Adopt selectively** · [Full analysis →](https://up2d8.com/trends/trend%3Amcp-becomes-the-default-integration-layer-for-agentic-tools)
+**Strong trend** · Recommended action: **Adopt selectively** · [Full analysis →](https://up2d8.com/trends/trend%3Asecrets-identity-and-access-control-tooling-shows-steady-enterprise-relevant-traction)
 
-Multiple independent MCP server projects (GitHub's official server, Microsoft Playwright MCP, Codebase Memory MCP) each posted first observations this week with 30k+ stars, alongside MCP-tagged agent platforms like AstrBot and UI-TARS-desktop, showing MCP adoption spreading beyond a single vendor across GitHub, Microsoft and independent developers.
+Infisical (28,815 stars) and Better Auth (29,566 stars) each posted substantial first-observation GitHub scale this week in the DevSecOps/identity space, alongside KeePassXC and Authelia at similar levels, reflecting sustained enterprise interest in self-hosted secrets and auth infrastructure, though no delta data exists yet to confirm week-on-week acceleration.
 
-- [Codebase Memory MCP](https://github.com/deusdata/codebase-memory-mcp)
-- [GitHub MCP Server (github/github-mcp-server)](https://github.com/github/github-mcp-server)
-- [Playwright MCP](https://github.com/microsoft/playwright-mcp)
+- [Authelia — Open-source SSO and 2FA provider](https://github.com/authelia/authelia)
+- [Better Auth](https://github.com/better-auth/better-auth)
+- [Infisical — open-source secret management platform](https://github.com/infisical/infisical)
+- [KeePassXC — cross-platform password manager](https://github.com/keepassxreboot/keepassxc)
 
-## RAG architecture diversifies beyond vector databases
+## Agent 'skills' repositories become the new distribution format for reusable AI capabilities
 
-**Early signal** · Recommended action: **Watch** · [Full analysis →](https://up2d8.com/trends/trend%3Arag-architecture-diversifies-beyond-vector-databases)
+**Emerging trend** · Recommended action: **Experiment** · [Full analysis →](https://up2d8.com/trends/trend%3Aagent-skills-repositories-become-the-new-distribution-format-for-reusable-ai-capabilities)
 
-New RAG-adjacent repositories this week span graph-based retrieval (LightRAG, Microsoft GraphRAG) and explicitly 'vectorless' retrieval (PageIndex), each a first observation with 35k+ stars, suggesting experimentation with retrieval architectures beyond standard vector-embedding pipelines, while ClawRAG shows near-zero movement (152 stars, flat for 7 consecutive days) and continued data-source mismatches.
+mattpocock/skills grew from 197,715 to 227,246 stars (+29,531) over three weeks (31 Jul-21 Aug) with forks up +2,452, while parallel skills-format repos from Vercel Labs, Google Labs, and independent developers (emilkowalski/skills, OthmanAdi/planning-with-files) each surfaced with 26k-30k stars in their first observation, indicating a broader pattern of agent-skill packaging across multiple vendors.
+
+- [Vercel Agent Skills](https://github.com/vercel-labs/agent-skills)
+- [Vercel Labs Skills](https://github.com/vercel-labs/skills)
+- [design.md (Google Labs)](https://github.com/google-labs-code/design.md)
+- [emilkowalski/skills — agent skills collection/library (by prominent UI-library author, creator of Sonner)](https://github.com/emilkowalski/skills)
+- [mattpocock/skills](https://github.com/mattpocock/skills)
+- [planning-with-files](https://github.com/othmanadi/planning-with-files)
+
+## AI coding-agent CLIs and terminal multiplexers proliferate rapidly
+
+**Emerging trend** · Recommended action: **Watch** · [Full analysis →](https://up2d8.com/trends/trend%3Aai-coding-agent-clis-and-terminal-multiplexers-proliferate-rapidly)
+
+A wave of terminal-based AI coding agent tools (Crush, oh-my-pi, KiloCode, Claude Code Templates, manaflow-ai/cmux, claude-hud, beads, OfficeCLI) each surfaced with 26k-30k stars within roughly three weeks of first being seen (31 Jul), pointing to intense builder activity around Claude Code/Codex-adjacent tooling, though all evidence is single-day GitHub snapshots.
+
+- [Claude Code Templates](https://github.com/davila7/claude-code-templates)
+- [Crush (charmbracelet)](https://github.com/charmbracelet/crush)
+- [KiloCode (Kilo-Org/kilocode)](https://github.com/kilo-org/kilocode)
+- [Onlook — AI-powered visual editor for React/Next.js](https://github.com/onlook-dev/onlook)
+- [Serena](https://github.com/oraios/serena)
+- [beads (gastownhall)](https://github.com/gastownhall/beads)
+- [can1357/oh-my-pi — AI coding agent CLI/TUI terminal (multi-provider, MCP)](https://github.com/can1357/oh-my-pi)
+- [claude-hud (jarrodwatts)](https://github.com/jarrodwatts/claude-hud)
+- [iOfficeAI/OfficeCLI](https://github.com/iofficeai/officecli)
+- [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux)
+
+## MCP tooling continues to broaden across coding, RAG, and hardware use cases
+
+**Emerging trend** · Recommended action: **Watch** · [Full analysis →](https://up2d8.com/trends/trend%3Amcp-tooling-continues-to-broaden-across-coding-rag-and-hardware-use-cases)
+
+Multiple independently-tracked repositories tagged with MCP support (FastMCP, repomix, Xiaozhi ESP32, code-review-graph) each show substantial first-observation star counts (26k-30k) with GitHub as the consistent evidence source, though no repo shows multi-day delta data this week.
+
+- [Code-review-graph](https://news.ycombinator.com/item?id=47314064)
+- [FastMCP](https://github.com/prefecthq/fastmcp)
+- [Xiaozhi ESP32](https://github.com/78/xiaozhi-esp32)
+- [repomix (yamadashy/repomix)](https://github.com/yamadashy/repomix)
+
+## RAG and knowledge-graph tooling remains a crowded, high-interest category without a clear leader
+
+**Emerging trend** · Recommended action: **Experiment** · [Full analysis →](https://up2d8.com/trends/trend%3Arag-and-knowledge-graph-tooling-remains-a-crowded-high-interest-category-without-a-clear-leader)
+
+A cluster of RAG/knowledge tools (Cognee, Kotaemon, Haystack, FastGPT, RAG Techniques, OpenDataLoader PDF) each posted first-observation star counts in the 25k-30k range on GitHub this week, with Cognee also drawing thin but recurring Hacker News mentions (2024-2026, mostly single-digit points).
 
 - [ClawRAG](https://github.com/2dogsandanerd/clawrag)
-- [LightRAG (HKUDS/LightRAG)](https://github.com/hkuds/lightrag)
-- [Microsoft GraphRAG](https://github.com/microsoft/graphrag)
-- [PageIndex](https://github.com/vectifyai/pageindex)
-- [khoj-ai/khoj — self-hosted AI second brain / personal assistant (RAG, Obsidian, Emacs, WhatsApp, offline LLM, semantic search)](https://github.com/khoj-ai/khoj)
+- [Cognee](https://github.com/topoteretes/cognee)
+- [FastGPT (labring/FastGPT)](https://github.com/labring/fastgpt)
+- [Haystack (deepset-ai)](https://github.com/deepset-ai/haystack)
+- [Kotaemon — open-source RAG chatbot UI (Cinnamon)](https://github.com/cinnamon/kotaemon)
+- [OpenDataLoader PDF](https://github.com/opendataloader-project/opendataloader-pdf)
+- [RAG Techniques (NirDiamant)](https://github.com/nirdiamant/rag_techniques)
 
-## Data-source mismatch and stale evidence undermine several 'trend' candidates
+## ClawRAG data-source mismatch signals noisy tracking, not real momentum
 
-**Noise** · Recommended action: **No strategic change** · [Full analysis →](https://up2d8.com/trends/trend%3Adata-source-mismatch-and-stale-evidence-undermine-several-trend-candidates)
+**Noise** · Recommended action: **No strategic change** · [Full analysis →](https://up2d8.com/trends/trend%3Aclawrag-data-source-mismatch-signals-noisy-tracking-not-real-momentum)
 
-ClawRAG shows zero star/fork/issue movement across 7 consecutive tracked days with a persistent observed-metrics mismatch pointing to an unrelated repository (ultralytics/yolov5), while several other entities (jackjackbits/bitchat, xxl-job, WSL, minikube) rely solely on multi-year-old Hacker News citations rather than current activity.
+ClawRAG has shown a completely flat repository (152 stars, 28 forks, 1 open issue) across at least 7 consecutive days (17-23 Aug) with observed_metrics batches repeatedly misattributed to an unrelated repository (ultralytics/yolov5), a recurring data-quality issue rather than genuine signal.
 
 - [ClawRAG](https://github.com/2dogsandanerd/clawrag)
+
+## Legacy developer utilities remain stable with no fresh momentum
+
+**Noise** · Recommended action: **No strategic change** · [Full analysis →](https://up2d8.com/trends/trend%3Alegacy-developer-utilities-remain-stable-with-no-fresh-momentum)
+
+Long-established, mature utilities (wttr.in, Slick Carousel, Modernizr, YouCompleteMe, jashkenas/underscore, Async.js, Developer Portfolios) each show single first-observation snapshots with flat or historical-only evidence (Hacker News items 3-12 years old), with no releases, PRs, or contributor activity captured this week.
+
+- [Async.js (caolan/async) — mature JavaScript utility module for working with asynchronous functions (collections, control flow, utility helpers)](https://github.com/caolan/async)
+- [Developer Portfolios (emmabostian/developer-portfolios)](https://github.com/emmabostian/developer-portfolios)
+- [Docker Practice (yeasy/docker_practice)](https://github.com/yeasy/docker_practice)
+- [Hitchhiker's Guide to Python](https://github.com/realpython/python-guide)
+- [Modernizr (feature-detection library)](https://github.com/modernizr/modernizr)
+- [Slick Carousel](https://github.com/kenwheeler/slick)
+- [YouCompleteMe (Vim code-completion engine)](https://github.com/ycm-core/youcompleteme)
+- [jashkenas/underscore](https://github.com/jashkenas/underscore)
+- [wttr.in (curl-based weather service)](https://github.com/chubin/wttr.in)
+
+## OpenManus reference repo shows negative deltas from sweep misattribution
+
+**Noise** · Recommended action: **Watch** · [Full analysis →](https://up2d8.com/trends/trend%3Aopenmanus-reference-repo-shows-negative-deltas-from-sweep-misattribution)
+
+OpenManus's canonical repo grew marginally (629 to 632 stars, +3) over two days while the weekly delta table shows a large negative swing (-57,371 stars) purely due to comparison against a different, larger sweep-tracked fork (FoundationAgents/OpenManus) not observed this week — an artefact of inconsistent repo tracking rather than a real decline.
+
+- [OpenManus](https://github.com/mannaandpoem/openmanus)
+
+## Tesseract.js star count conflated with unrelated upstream C++ engine
+
+**Noise** · Recommended action: **No strategic change** · [Full analysis →](https://up2d8.com/trends/trend%3Atesseract-js-star-count-conflated-with-unrelated-upstream-c-engine)
+
+Today's sweep reports two contradictory figures for Tesseract.js — 38,636 stars (consistent with a month-long trend from 38,546 on 12 July) versus 75,975 stars attributed to the separate tesseract-ocr/tesseract C++ repository — indicating a data-attribution error rather than genuine growth.
+
+- [Tesseract.js](https://github.com/naptha/tesseract.js)
 
 ---
 
@@ -135,4 +182,4 @@ ClawRAG shows zero star/fork/issue movement across 7 consecutive tracked days wi
 
 Machine-readable: [llms.txt](https://up2d8.com/llms.txt) · [RSS](https://up2d8.com/rss.xml)
 
-_Updated weekly from Issue 2026-W34. Inclusion is an observation, not an endorsement._
+_Updated weekly from Issue 2026-W35. Inclusion is an observation, not an endorsement._
